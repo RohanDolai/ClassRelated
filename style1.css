@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    display: flex;
+    height: 56px;
+    background-color: #0f0460;
+    padding-top: 12px;
+    justify-content: space-evenly;
+    color: white;
+    /* justify-content: space-between; */
+}
+header .logo img{
+    height: 50px;
+    margin-right: 10px;
+}
+.all{
+    height: 40px;
+    width: 60px;
+    background-color: rgb(172, 174, 174);
+    border-radius: 5px;
+    padding-left: 10px;
+    margin: 0 -19px 0 0px;
+}
+.text-field{
+    background-color: white;
+    width: 35vw;
+    height: 40px;
+    margin-left: -2px;
+}
+.search{
+height: 40px;
+width: 50px;
+background-color: orange;
+border-radius: 5px;
+margin: 0 0 0 -20px;
+}
+.location{
+    margin: 0 10px 0 10px;
+}
+.location img{
+    height: 20px;
+}
+.hello{
+    font-size: 15px;
+    margin-bottom: 0;
+}
+.account{
+    font-size: 20px;
+    margin-top: 0;
+}
+.order-details{
+    margin-left: 10px;
+}
+.order-details .returns{
+    font-size: 15px;
+    margin-bottom: 0;
+}
+.order-details .orders{
+    font-size: 20px;
+    margin-top: 0;
+}
+.cart{
+    margin-left: 15px;
+    font-size: 25px;
+}
